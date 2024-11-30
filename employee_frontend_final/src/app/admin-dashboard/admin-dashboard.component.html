@@ -1,0 +1,28 @@
+<div class="container">
+    <h1>Admin Dashboard</h1>
+  
+    <!-- Total Employees -->
+    <p>Total Employees: <strong>{{ totalEmployees }}</strong></p>
+  
+    <!-- Chart Grid -->
+    <div class="chart-grid">
+      <!-- Salary Range Bar Chart -->
+      <div class="chart-item">
+        <h3>Employee Distribution by Salary Ranges</h3>
+        <canvas #barChart></canvas>
+      </div>
+  
+      <!-- Department Pie Chart -->
+      <div class="chart-item">
+        <h3>Employee Distribution by Departments</h3>
+        <canvas #departmentPieChart></canvas>
+      </div>
+  
+      <!-- Department Salary Doughnut Chart -->
+      <div class="chart-item">
+        <h3>Total Salary Spent by Department</h3>
+        <canvas #departmentSalaryDoughnutChart></canvas>
+      </div>
+    </div>
+  </div>
+  

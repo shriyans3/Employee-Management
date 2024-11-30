@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Automatically fit charts in rows */
+  gap: 30px; /* Space between charts */
+  margin: 20px auto;
+  max-width: 1000px; /* Maximum width for the grid */
+}
+
+.chart-item {
+  border: 1px solid #ddd; /* Optional border for styling */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Optional background */
+}
+
+canvas {
+  max-width: 100%; /* Make the charts responsive */
+  height: auto;
+}
